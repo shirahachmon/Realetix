@@ -1,0 +1,11 @@
+# Normalize all text files to LF in the repo,
+# Git will handle CRLF <-> LF on checkout/commit as needed.
+* text=auto eol=lf
+
+# Keep these as-is (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.ico binary
+*.svg -text
