@@ -1,0 +1,59 @@
+# -----------------------------
+# Node / pnpm
+# -----------------------------
+node_modules/
+.pnpm-store/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------
+# Build outputs
+# -----------------------------
+dist/
+build/
+.out/
+.next/
+*.tsbuildinfo
+
+# -----------------------------
+# Vite / React
+# -----------------------------
+client/.vite/
+client/.idea/
+client/.DS_Store
+client/coverage/
+
+# -----------------------------
+# NestJS / Server
+# -----------------------------
+server/.DS_Store
+server/coverage/
+server/.idea/
+
+# -----------------------------
+# Prisma
+# -----------------------------
+prisma/.env
+*.db-journal
+
+# -----------------------------
+# Environment files
+# -----------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/

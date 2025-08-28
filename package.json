@@ -1,0 +1,12 @@
+{
+  "name": "realetix-mono",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "concurrently -n CLIENT,SERVER -c auto \"pnpm --filter ./client dev\" \"pnpm --filter ./server start:dev\"",
+    "install:all": "pnpm -r install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
